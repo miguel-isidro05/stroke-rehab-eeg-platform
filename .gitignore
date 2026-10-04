@@ -15,6 +15,7 @@
 /.playwright-mcp/
 
 # local assistant configuration
+/.codex/
 /.agents/
 /.claude/
 /AGENTS.md
