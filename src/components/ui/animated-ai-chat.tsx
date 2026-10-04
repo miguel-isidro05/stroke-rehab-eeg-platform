@@ -147,7 +147,7 @@ export function AnimatedAIChat() {
   const [selectedChannels, setSelectedChannels] = useState<string[]>(["C3", "C4"]);
   const [filters, setFilters] = useState<FilterSettings>({
     notchHz: "60",
-    highPassHz: 1,
+    highPassHz: 4,
     lowPassHz: 40,
     windowSeconds: 5,
   });

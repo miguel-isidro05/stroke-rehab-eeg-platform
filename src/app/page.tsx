@@ -1,5 +1,5 @@
-import { Demo } from "@/components/ui/demo";
+import AnalysisWorkspace from "@/features/analysis/analysis-workspace";
 
 export default function Home() {
-  return <Demo />;
+  return <AnalysisWorkspace />;
 }
