@@ -145,6 +145,7 @@ Complete one analysis with all four EEG recordings after changing processing, mo
 
 Read the following documents before extending the platform:
 
+- [EEG analysis notebook](backend/app/eeg_analysis_pipeline.ipynb) reproduces preprocessing, CSP/FBCSP evaluation, MNE visualizations, and the reference comparison.
 - [Team handoff](docs/TEAM_HANDOFF.md) describes the implemented work and current limitations.
 - [Architecture](docs/ARCHITECTURE.md) explains runtime boundaries and data flow.
 - [Adding features](docs/ADDING_FEATURES.md) identifies the correct extension points for models, processing, API fields, and interface panels.
